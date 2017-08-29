@@ -2,11 +2,11 @@
 #-*- coding:utf-8 -*-
 import jieba
 import requests
-import re,sys,random,io
-import urllib.request
+import re,random
+#import io,sys
 from os import path
 from scipy.misc import imread
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+from wordcloud import WordCloud,  ImageColorGenerator
 #sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')#变标准输出的默认编码 ,windows下cmd对编码支持性极差的原因，idle可以正常运行
 
 class get_bilibili_random_headers(object) :
